@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my favorite city</title>
+</head>
+
+<body>
+    <hl>my favorite city</hl>
+    <p>My favorite city is trier< DE. it is known for its well-preserved Roman and medieval buildings.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/
+            Trier-Blick-vom Weishaus.JPG/800px-Trier-Blick-vom Weishaus.JPG" alt="Trier" , DE">
+</body>
+
+</html>
