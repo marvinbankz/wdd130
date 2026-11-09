@@ -1,29 +1,42 @@
+:root {
+    --primary-color: darkblue;
+    --heading-color: steelblue;
+    --text-light: white;
+    --bg-light: #eee;
+    --text-dark: #333;
+    --border-dark: #000;
+    --shadow-color: gray;
+
+    --spacing-sm: 10px;
+    --spacing-md: 1em;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--primary-color);
+    padding: var(--spacing-sm);
 }
 
 nav a {
-    color: white;
-    padding: 10px;
+    color: var(--text-light);
+    padding: var(--spacing-sm);
     display: block;
 }
 
-/*this is the main */
+/* this is the main */
 main {
     max-width: 840px;
 }
 
 h1 {
-    color: steelblue;
+    color: var(--heading-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-dark);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
 p {
@@ -32,12 +45,11 @@ p {
 
 aside {
     width: 20em;
-    margin: 1em;
+    margin: var(--spacing-md);
     border: 1px solid rgba(0, 0, 0, 0.2);
-    /* why use rgba instead of hex here? */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
+    padding: var(--spacing-md);
+    background-color: var(--bg-light);
+    color: var(--text-dark);
     text-align: center;
 }
 
@@ -47,7 +59,7 @@ aside img {
 }
 
 footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
+    margin-top: var(--spacing-md);
+    border-top: 1px solid var(--border-dark);
     text-align: center;
 }
