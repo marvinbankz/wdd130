@@ -26,6 +26,7 @@ nav a {
     color: var(--text-light);
     padding: var(--spacing-sm);
     display: block;
+    text-decoration: none;
 }
 
 /* this is the main */
@@ -43,6 +44,7 @@ main img {
     border: 1px solid var(--border-dark);
     padding: 2px;
     box-shadow: 0 0 30px var(--shadow-color);
+    float: right;
 }
 
 p {
@@ -70,6 +72,15 @@ footer {
     text-align: center;
 }
 
+footer nav.socialmedia a {
+    text-decoration: none;
+}
+
+footer nav.socialmedia img {
+    width: 30px;
+    height: auto;
+}
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -79,13 +90,6 @@ footer {
     color: #000;
 }
 
-main img {
-    /* you most likely will have other CSS declarations here */
-    float: right;
-}
-
 aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
 }
