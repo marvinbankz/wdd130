@@ -29,12 +29,6 @@ code {
     /* this is shorthand for #dddddd */
 }
 
-.highlight {
-    background-color: #efefaa;
-    border-radius: 25px;
-    padding: 25px;
-}
-
 /* ID examples - should be unique */
 
 #note {
