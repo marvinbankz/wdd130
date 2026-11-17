@@ -102,15 +102,13 @@ main {
     bottom: 25px;
     left: 30px;
     right: 30px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
     background-color: rgba(0, 105, 148, 0.90);
     color: white;
     padding: 15px;
 }
 
 .hero article img {
+    float: right;
     width: 125px;
     height: auto;
     margin-left: 15px;
