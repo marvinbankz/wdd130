@@ -27,6 +27,21 @@ nav a {
     font-weight: 700;
 }
 
+.socialmedia {
+    gap: 1rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+.socialmedia a {
+    padding: 0;
+}
+
+.socialmedia img {
+    width: 35px;
+    height: 35px;
+}
+
 h1 {
     color: darkblue;
     border-bottom: 1px solid #007acc;
@@ -93,6 +108,9 @@ aside img {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
     color: #333;
     text-align: center;
